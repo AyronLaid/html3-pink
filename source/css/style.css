@@ -1,7 +1,19 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .page__body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
+  background-color: #292725;
 }
 
 .visually-hidden {
@@ -15,39 +27,15 @@
   overflow: hidden;
 }
 
-.page-header {
-  background-color: rgba(0, 0, 0, 0.1);
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.page-header__logo {
-  margin-left: 140px;
-  margin-right: 50px;
-}
-
-.wrapper {
-  display: flex;
-}
-
-.main-nav__list {
-  display: flex;
-  justify-content: space-between;
-}
-.main-nav__list .site-list__item {
-  list-style: none;
-  width: 170px;
-}
-.main-nav__list .site-list__item a {
-  padding: 5px;
-  color: #F2F2F2;
-  text-decoration: none;
-}
-
-body {
-  background-image: url(/source/img/back-desktop.jpg);
-  background-repeat: no-repeat;
-  background-position: center 0;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .visually-hidden {

@@ -1,5 +1,18 @@
-$color: #F2F2F2;
-$text-color: rgba(40, 54, 69, 1);
+// Цвет текста
+$colorw: #F2F2F2; 
+$colorb: rgba(40, 54, 69, 1);
+$colorr: rgba(210, 40, 86, 1);
+
+// цвет фона
+$bgcolorgr: rgba(29, 38, 49, 1);
+$bgcolorg: rgba(242, 242, 242, 1);
+$bgcolorw:  #FFF;
+
+// развер @media
+
+$desktop-width: 1200px;
+$tablet-width: 660px;
+$mobile-width: 320px;
 
 @mixin size($width: 0px, $height: 0px) {
   width: $width;

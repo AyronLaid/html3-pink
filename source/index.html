@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="важные, ключевые, слова">
   <meta name="description" content="краткое описание">
-
-  <link rel="stylesheet" href="source/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>pink</title>
 </head>
 
@@ -15,8 +14,13 @@
 
   <header class="page-header">
     <div class="wrapper">
-      <a class="page-header__logo" href="#">
-        <img src="img/logotype-white-tablet.png" width="147" height="40" alt="Лого"></a>
+      <a class="page-header__logo">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/logotype-white-desktop.svg">
+          <source media="(min-width: 660px)" srcset="img/logotype-white-tablet.png">
+          <img src="img/pink.png" width="74" height="23" alt="Пинк лого">
+        </picture>
+      </a>
       <nav id="menu" class="main-nav">
         <ul class="main-nav__list">
           <li class="site-list__item"><a href="#">главная</a></li>
@@ -26,12 +30,7 @@
         </ul>
 
       </nav>
-      <input id="toggle" type="checkbox"></input>
-      <label for="toggle" class="hamburger">
-        <div class="top-bun"></div>
-        <div class="meat"></div>
-        <div class="bottom-bun"></div>
-      </label>
+      
 
 
 
