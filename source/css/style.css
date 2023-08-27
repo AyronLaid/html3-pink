@@ -6,6 +6,18 @@
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-attachment: local;
+  background-color: black;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .page-header {
@@ -33,7 +45,7 @@
 }
 .main-nav__list .site-list__item a {
   padding: 5px;
-  color: #b11d1d;
+  color: #F2F2F2;
   text-decoration: none;
 }
 
