@@ -1,0 +1,50 @@
+.page__body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-image: url(/source/img/back-desktop.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-attachment: local;
+}
+
+.page-header {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.page-header__logo {
+  margin-left: 140px;
+  margin-right: 50px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.main-nav__list .site-list__item {
+  list-style: none;
+  width: 170px;
+}
+.main-nav__list .site-list__item a {
+  padding: 5px;
+  color: #b11d1d;
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/*# sourceMappingURL=style.css.map */
