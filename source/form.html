@@ -9,16 +9,34 @@
   <title>pink</title>
 </head>
 <body>
-  <header class="form-header"></header>
+  <header class="form-header">
+
+
+      <a class="page-header__logo">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/logotype-white-desktop.svg">
+          <source media="(min-width: 660px)" srcset="img/logotype-white-tablet.png">
+          <img src="img/pink.png" width="74" height="23" alt="Пинк лого">
+        </picture>
+      </a>
+      <nav id="menu" class="main-nav">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list">
+            <li class="site-list__item"><a>главная</a></li>
+            <li class="site-list__item"><a href="catalog.html">Фотографии</a></li>
+            <li class="site-list__item"><a href="form.html">конкурс</a></li>
+            <li class="site-list__item"><a href="https://htmlacademy.ru/study">html academy</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    
+  </header>
   <main class="form-main"></main>
   <footer class="form-footer"></footer>
 
 
-  <input id="toggle" type="checkbox"></input>
-      <label for="toggle" class="hamburger">
-        <div class="top-bun"></div>
-        <div class="meat"></div>
-        <div class="bottom-bun"></div>
-      </label>
+
 </body>
 </html>

@@ -13,36 +13,37 @@
 <body class="page__body">
 
   <header class="page-header">
-    <div class="wrapper">
-      <a class="page-header__logo">
-        <picture>
-          <source media="(min-width: 1200px)" srcset="img/logotype-white-desktop.svg">
-          <source media="(min-width: 660px)" srcset="img/logotype-white-tablet.png">
-          <img src="img/pink.png" width="74" height="23" alt="Пинк лого">
-        </picture>
-      </a>
-      <nav id="menu" class="main-nav">
+
+    <a class="page-header__logo">
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/logotype-white-desktop.svg">
+        <source media="(min-width: 660px)" srcset="img/logotype-white-tablet.png">
+        <img src="img/pink.png" width="74" height="23" alt="Пинк лого">
+      </picture>
+    </a>
+    <nav id="menu" class="main-nav">
+      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="main-nav__wrapper">
         <ul class="main-nav__list">
-          <li class="site-list__item"><a href="#">главная</a></li>
-          <li class="site-list__item"><a href="#">Фотографии</a></li>
-          <li class="site-list__item"><a href="#">конкурс</a></li>
-          <li class="site-list__item"><a href="#">html academy</a></li>
+          <li class="site-list__item"><a>главная</a></li>
+          <li class="site-list__item"><a href="catalog.html">Фотографии</a></li>
+          <li class="site-list__item"><a href="form.html">конкурс</a></li>
+          <li class="site-list__item"><a href="https://htmlacademy.ru/study">html academy</a></li>
         </ul>
+      </div>
+    </nav>
 
-      </nav>
-      
-
-
-
-    </div>
   </header>
 
 
   <main class="page-main">
     <h1 class="visually-hidden">Pink-Сделай мир розовым</h1>
+
+
     <section class="upload">
       <h2 class="visually-hidden">Скачать приложения</h2>
       <p class="upload__slogan">Взгляните на жизнь иначе!</p>
+      <img src="img/htmlacademy.svg" width="100" alt="Телефон с фото розового мира">
       <p class="upload__download">
         <a class="download__link" href="#">Скачать приложение</a>
       </p>
@@ -60,6 +61,7 @@
       <p class="upload__info">
         Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
       </p>
+
     </section>
 
     <section class="advantages">
@@ -100,28 +102,30 @@
       <div class="reviews__wrapper slider">
         <h2 class="visually-hidden">Отзывы о нас</h2>
 
-        <div class="reviews__list slider__list">
-          <div class="reviews__author-info">
+        <ul class="reviews__list slider__list">
+          <li class="reviews__author-info">
             <cite class="reviews__author-name">Николай Петров</cite>
             <p class="reviews__text">
               «Это приложение перевернуло мой мир и позволило по-новому
               взглянуть на привычные серые вещи! А еще я познакомился со своей
               будущей женой в комментариях к выложенной фотографии!»
             </p>
-          </div>
+          </li>
 
-          <div class="reviews__author-info">
+          <li class="reviews__author-info">
             <cite class="reviews__author-name">Джон Смит</cite>
             <p class="reviews__text">Отличную стрижку мне сделали ребята.</p>
-          </div>
+          </li>
 
-          <div class="reviews__author-info">
+          <li class="reviews__author-info">
             <cite class="reviews__author-name">Иван Бородайло</cite>
             <p class="reviews__text">
               В Бородинском ваша борода в надёжных руках!
             </p>
-          </div>
-        </div>
+          </li>
+
+        </ul>
+
         <p class="reviews__toggles slider__toggles">
           <button class="slider__toggle slider__toggle--current" type="button">
             1
