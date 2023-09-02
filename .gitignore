@@ -6,7 +6,7 @@ node_modules/
 .publish
 Thumbs.db
 sass/
-sourse/
+source/
 package.json
 Readme.md
 .stylelintrc
