@@ -7,3 +7,10 @@ node_modules/
 Thumbs.db
 sass/
 sourse/
+package.json
+Readme.md
+.stylelintrc
+.editorconfig
+Contributing.md
+gulpfile.js
+*.json
