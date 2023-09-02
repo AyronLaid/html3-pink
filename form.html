@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="важные, ключевые, слова">
+  <meta name="description" content="краткое описание">
+  <link rel="stylesheet" href="css/style.css">
+  <title>pink</title>
+</head>
+
+<body>
+  <header class="form-header">
+    <a class="page-header__logo">
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/logotype-white-desktop.svg">
+        <source media="(min-width: 660px)" srcset="img/logotype-white-tablet.png">
+        <img src="img/pink.png" width="74" height="23" alt="Пинк лого">
+      </picture>
+    </a>
+    <nav id="menu" class="main-nav">
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list">
+          <li class="site-list__item"><a href="index.html">главная</a></li>
+          <li class="site-list__item"><a href="catalog.html">Фотографии</a></li>
+          <li class="site-list__item"><a>конкурс</a></li>
+          <li class="site-list__item"><a href="https://htmlacademy.ru/study">html academy</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="form-main">
+    <h1 class="page-main__heading">Конкурс на самое
+      безбашенное
+      путешествие с Пинк</h1>
+    <p class="page-main__subheading">Поделитесь своей историей и получите
+      шанс выиграть ценный приз — 1000
+      миль на вашу бонусную карту!</p>
+    <section class="page-main__section form">
+      <h2 class="visually-hidden">Форма анкеты</h2>
+
+      <form class="form__body" method="post" action="https://echo.htmlacademy.ru/">
+        <fieldset class="form__group field-group">
+          <legend class="visually-hidden">Фамилия Имя Отчество</legend>
+          <ul class="field-group__list">
+            <li class="field-group__item">
+              <label class="field">
+                <span class="field__lead">Фамилия:</span>
+                <input class="field__input" name="username" type="text" placeholder="Укажите фамилию *" required>
+              </label>
+            </li>
+            <li class="field-group__item">
+              <label class="field">
+                <span class="field__lead">Имя:</span>
+                <input class="field__input" name="usersurname" type="text" placeholder="Введите ваше имя *" required>
+              </label>
+            </li>
+            <li class="field-group__item">
+              <label class="field">
+                <span class="field__lead">Отчество:</span>
+                <input class="field__input" name="userpatronymic" type="text" placeholder="Ну и отчество тоже">
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset class="form__group field-group">
+          <legend class="legend-checkbox">Ваши безбашенные
+            достижения в путешествии</legend>
+
+          <ul class="field-group__list">
+            <li class="field-group__item">
+              <label class="control control--checkbox">
+                <input class="control__input" name="additional" type="checkbox" value="selfies" checked>
+                <span class="control__lead">Сделал селфи с акулой</span>
+              </label>
+            </li>
+            <li class="field-group__item">
+              <label class="control control--checkbox">
+                <input class="control__input" name="additional" type="checkbox" value="beach" checked>
+                <span class="control__lead">Обгорел на пляже</span>
+              </label>
+            </li>
+            <li class="field-group__item">
+              <label class="control control--checkbox">
+                <input class="control__input" name="additional" type="checkbox" value="Chuck-Norris">
+                <span class="control__lead">Видел Чака Норриса</span>
+              </label>
+            </li>
+            <li class="field-group__item">
+              <label class="control control--checkbox">
+                <input class="control__input" name="additional" type="checkbox" value="souvenirs">
+                <span class="control__lead">Накупил сувениров</span>
+              </label>
+            </li>
+            <li class="field-group__item">
+              <label class="control control--checkbox">
+                <input class="control__input" name="additional" type="checkbox" value="tower" checked>
+                <span class="control__lead">Удержал башню</span>
+              </label>
+            </li>
+            <li class="field-group__item">
+              <label class="control control--checkbox">
+                <input class="control__input" name="additional" type="checkbox" value="hotel">
+                <span class="control__lead">Разгромил отель</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset class="form__group field-group">
+          <legend class="visually-hidden">Контактные данные</legend>
+
+          <ul class="field-group__list">
+            <li class="field-group__item">
+              <label class="field">
+                <span class="field__lead">Номер телефона</span>
+                <input class="field__input" name="phone" type="tel" placeholder="Номер, пожалуйста" required>
+              </label>
+            </li>
+            <li class="field-group__item">
+              <label class="field">
+                <span class="field__lead">Адрес почты</span>
+                <input class="field__input" name="e-mail" type="email" placeholder="Введите почту *" required>
+              </label>
+            </li>
+
+          </ul>
+        </fieldset>
+
+        <fieldset class="form__group field-group">
+          <legend class="field-group__heading">С каким приложением
+            путешествовали?</legend>
+
+          <ul class="field-group__list">
+            <li class="field-group__item">
+              <label class="control control--radio">
+                <input class="control__input" name="target" type="radio" value="iOS" checked>
+                <span class="control__lead">Pink для iOS</span>
+              </label>
+            </li>
+            <li class="field-group__item">
+              <label class="control control--radio">
+                <input class="control__input" name="target" type="radio" value="Android">
+                <span class="control__lead">Pink на Android</span>
+              </label>
+            </li>
+            <li class="field-group__item">
+              <label class="control control--radio">
+                <input class="control__input" name="target" type="radio" value="Windows-Phone">
+                <span class="control__lead">Windows Phone</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <div class="form__group field-group">
+          <label class="field-group__heading" for="comment">Опишите свои эмоции</label>
+
+          <div class="field">
+            <textarea class="field__input" name="comment" id="comment" rows="5"
+              placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+          </div>
+        </div>
+
+        <button class="form__button button" type="submit">Отправить заявку</button>
+        <p class="form__additional">* — Обязательные поля</p>
+      </form>
+
+    </section>
+  </main>
+  <footer class="page__footer page-footer">
+    <a class="page-footer__logo logo" href="index.html">
+      <img class="logo__image" src="img/htmlacademy.svg" width="145" height="40" alt="htmlacademy">
+    </a>
+
+    <ul class="page-footer__social social">
+      <li class="social__item">
+        <a class="social__link" href="#">
+          <span class="visually-hidden">twitter</span>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link" href="#">
+          <span class="visually-hidden">facebook</span>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link" href="#">
+          <span class="visually-hidden">youtube</span>
+        </a>
+      </li>
+    </ul>
+
+    <a class="page-footer__developer developer" href="https://htmlacademy.ru/intensive/adaptive">
+      <span class="copyright__text">Разработано</span>
+
+      <img class="developer__image" src="img/htmlacademy.svg" width="27" height="34" alt="HTML Academy" aria-hidden="true">
+    </a>
+  </footer>
+
+
+
+</body>
+
+</html>
