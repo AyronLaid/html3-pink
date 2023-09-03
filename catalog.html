@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="важные, ключевые, слова">
-  <meta name="description" content="краткое описание">
-  <link rel="stylesheet" href="css/style.css">
-  <title>pink</title>
+  <meta charset="utf-8">
+  <title>Пинк: Фотографии пользователей</title>
 </head>
+
 <body>
   <header class="form-header">
     <a class="page-header__logo">
@@ -24,43 +22,145 @@
       <div class="main-nav__wrapper">
         <ul class="main-nav__list">
           <li class="site-list__item"><a href="index.html">главная</a></li>
-          <li class="site-list__item"><a">Фотографии</a></li>
+          <li class="site-list__item"><a>Фотографии</a></li>
           <li class="site-list__item"><a href="form.html">конкурс</a></li>
           <li class="site-list__item"><a href="https://htmlacademy.ru/study">html academy</a></li>
         </ul>
       </div>
     </nav>
   </header>
-    <main class="catalog-main"></main>
-    <footer class="page__footer page-footer">
-      <a class="page-footer__logo logo" href="index.html">
-        <img class="logo__image" src="img/htmlacademy.svg" width="145" height="40" alt="htmlacademy">
-      </a>
+  <main class="catalog-main">
+    <h1 class="catalog-main__heading">Фотографии
+      пользователей</h1>
+    <p class="catalog-main__text">Взгляните на фотографии, которые выкладывают пользователи!
+      Видите, как не хватает ваших?</p>
+    <section class="catalog-main__hero">
+      <h2 class="hero__title">Панорама дня</h2>
+      <img class="hero__img" src="img/htmlacademy.svg" width="320" height="137" alt="Панорама моста">
+      <p class="hero__author"><cite>Анна<time datetime="2019-12-22">(5 минут назад)</time></cite></p>
 
-      <ul class="page-footer__social social">
-        <li class="social__item">
-          <a class="social__link" href="#">
-            <span class="visually-hidden">twitter</span>
-          </a>
+      <p class="hero-text">Прыгать или нет? Напишите в
+        комментарии свой совет и
+        смотрите прямую трансляцию в
+        перископе, задавайте свои вопросы!</p>
+      <div class="news-stats">
+        <button class="heart" type="button"></button><span class="likes-number">Нравится: 215</span>
+      </div>
+
+    </section>
+    <section class="catalog-main__gallery">
+      <h2 class="visually-hidden">Галерея фотографий</h2>
+      <ul class="gallery__list">
+        <li class="gallery__item">
+          <img src="img/htmlacademy.svg" width="300" height="400" alt="камеры и машина">
+          <p class="gallery__author"><cite>Левон<time datetime="2019-12-22">(5 часов назад)</time></cite></p>
+          <p class="gallery__text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+          <div class="news-stats">
+            <button class="heart" type="button"></button><span class="likes-number">Нравится: 356</span>
+          </div>
         </li>
-        <li class="social__item">
-          <a class="social__link" href="#">
-            <span class="visually-hidden">facebook</span>
-          </a>
+        <li class="gallery__item">
+          <img src="img/htmlacademy.svg" width="300" height="400" alt="камеры и машина">
+          <p class="gallery__author"><cite>Антон<time datetime="2019-12-22">(12 часов назад)</time></cite></p>
+          <p class="gallery__text">Соседи будут рады!</p>
+          <div class="news-stats">
+            <button class="heart" type="button"></button><span class="likes-number">Нравится: 666</span>
+          </div>
         </li>
-        <li class="social__item">
-          <a class="social__link" href="#">
-            <span class="visually-hidden">youtube</span>
-          </a>
+        <li class="gallery__item">
+          <img src="img/htmlacademy.svg" width="300" height="400" alt="камеры и машина">
+          <p class="gallery__author"><cite>Борис<time datetime="2019-12-22">(20 часов назад)</time></cite></p>
+          <p class="gallery__text">Здесь могла быть ваша цитата о высоком и вечном.</p>
+          <div class="news-stats">
+            <button class="heart" type="button"></button><span class="likes-number">Нравится: 215</span>
+          </div>
+        </li>
+        <li class="gallery__item">
+          <img src="img/htmlacademy.svg" width="300" height="400" alt="камеры и машина">
+          <p class="gallery__author"><cite>Сергей<time datetime="2019-12-22">(25 часов назад)</time></cite></p>
+          <p class="gallery__text">Самая кубанская в мире!</p>
+          <div class="news-stats">
+            <button class="heart" type="button"></button><span class="likes-number">Нравится: 4</span>
+          </div>
+        </li>
+        <li class="gallery__item">
+          <img src="img/htmlacademy.svg" width="300" height="400" alt="камеры и машина">
+          <p class="gallery__author"><cite>Максим<time datetime="2019-12-22">(40 часов назад)</time></cite></p>
+          <p class="gallery__text">Где снег-то?</p>
+          <div class="news-stats">
+            <button class="heart" type="button"></button><span class="likes-number">Нравится: 150</span>
+          </div>
+        </li>
+        <li class="gallery__item">
+          <img src="img/htmlacademy.svg" width="300" height="400" alt="камеры и машина">
+          <p class="gallery__author"><cite>Надежда<time datetime="2019-12-22">(45 часов назад)</time></cite></p>
+          <p class="gallery__text">Всем GM и взаимные лайки!</p>
+          <div class="news-stats">
+            <button class="heart" type="button"></button><span class="likes-number">Нравится: 2560</span>
+          </div>
         </li>
       </ul>
+    </section>
+    <section class="catalog-main__strainer">
+      <h2 class="catalog-main__strainer--title">Фильтр фото</h2>
+      <p class="catalog-main__strainer-text">Затмите их всех!
+        Выкладывайте все, что накопилось в телефоне!</p>
+      <img src="img/htmlacademy.svg" width="300" height="400" alt="">
+      <div class="catalog-main__strainer-wrapper">
+        <form method="post" action="https://echo.htmlacademy.ru/">
+          <ul class="catalog-main__strainer-list">
+            <li class="catalog-main__strainer-item active">
+              <label for="size"><img src="img/htmlacademy.svg" width="44" height="44" alt="размер"></label>
+              <input type="range" id="size" name="size" value="80" min="0" max="100">
+            </li>
+            <li class="catalog-main__strainer-item disabled">
+              <label for="saturation"><img src="img/htmlacademy.svg" width="44" height="44" alt="размер"></label>
+              <input type="range" id="saturation" name="saturation" value="20" min="0" max="100">
+            </li>
+            <li class="catalog-main__strainer-item disabled">
+              <label for="light"><img src="img/htmlacademy.svg" width="44" height="44" alt="размер"></label>
+              <input type="range" id="light" name="light" value="50" min="0" max="100">
+            </li>
+          </ul>
+          <button type="submit">Запостить</button>
+          <button type="reset" disabled>Отмена</button>
+        </form>
 
-      <a class="page-footer__developer developer" href="https://htmlacademy.ru/intensive/adaptive">
-        <span class="copyright__text">Разработано</span>
+      </div>
 
-        <img class="developer__image" src="img/htmlacademy.svg" width="27" height="34" alt="HTML Academy" aria-hidden="true">
-      </a>
-    </footer>
+    </section>
+  </main>
+  <footer class="page__footer page-footer">
+    <a class="page-footer__logo logo" href="index.html">
+      <img class="logo__image" src="img/htmlacademy.svg" width="145" height="40" alt="htmlacademy">
+    </a>
+
+    <ul class="page-footer__social social">
+      <li class="social__item">
+        <a class="social__link" href="#">
+          <span class="visually-hidden">twitter</span>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link" href="#">
+          <span class="visually-hidden">facebook</span>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link" href="#">
+          <span class="visually-hidden">youtube</span>
+        </a>
+      </li>
+    </ul>
+
+    <a class="page-footer__developer developer" href="https://htmlacademy.ru/intensive/adaptive">
+      <span class="copyright__text">Разработано</span>
+
+      <img class="developer__image" src="img/htmlacademy.svg" width="27" height="34" alt="HTML Academy"
+        aria-hidden="true">
+    </a>
+  </footer>
 
 </body>
+
 </html>
